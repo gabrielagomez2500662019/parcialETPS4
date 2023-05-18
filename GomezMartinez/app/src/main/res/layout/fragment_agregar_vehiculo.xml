@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarVehiculoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="477dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtMARCA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Marca del Vehiculo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtMODELO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Modelo del Vehiculo"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:textSize="10sp"
+                app:icon="@drawable/agregar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

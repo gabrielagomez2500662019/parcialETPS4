@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/agregar"
+            android:icon="@drawable/agregar"
+            android:title="Agregar Clientes"/>
+
+        <item android:id="@+id/listar"
+            android:icon="@drawable/update"
+            android:title="Listar Clientes"/>
+    </group>
+
+    <item android:title="Redes Sociales">
+        <menu>
+            <item android:id="@+id/agregarVehiculos"
+                android:icon="@drawable/agregar"
+                android:title="Agregar Vehiculos"/>
+
+            <item android:id="@+id/listarVehiculos"
+                android:icon="@drawable/update"
+                android:title="Listar Vehiculos"/>
+        </menu>
+    </item>
+
+</menu>
